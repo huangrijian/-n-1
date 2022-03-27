@@ -198,7 +198,7 @@ BFC(block formatting context）：简单来说，BFC 就是一种属性，这种
 </div>
 ```
 
-![](F:\github\front-end-knowledge\2022-03\2022-03-27\img\1.png)
+![](/im/1.png)
 
 问题案例： div 浮动兄弟遮盖问题：由于 p1 元素发生了浮动，所以和 p2 未发生浮动的块级元素不在同一层内，所以会发生 p1 将 p2 遮挡的问题。可以给 p2 加 overflow: hidden，触发 bfc 来解决遮挡问题。
 
