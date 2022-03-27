@@ -27,7 +27,21 @@
     .main {
       background-color: red;
       overflow: hidden;
+      color: white;
       /* 给中间元素形成BFC */
+    }
+
+    #p1 {
+      width: 300px;
+      height: 200px;
+      background-color: rgb(154, 154, 187);
+      float: left;
+    }
+
+    #p2 {
+      width: 200px;
+      height: 100px;
+      background-color: rgb(90, 0, 71);
     }
 
     .right {
@@ -44,7 +58,12 @@
     <div class="left"></div>
     <div class="right"></div>
     <div class="main">
-      main
+      <div id="p1">
+        p1我发生了浮动
+      </div>
+      <div id="p2">
+        p2我没浮动，会被覆盖，必须给我添加 overflow: hidden，触发bfc来解决遮挡问题
+      </div>
     </div>
   </div>
 </body>
