@@ -1,3 +1,3 @@
-# 每天记录n道前端面试题或解决方案
+# 每天记录 n 道前端面试题或解决方案
 
-![This is an image](/afaw.jpg)
+![This is an image](./gif.gif)
